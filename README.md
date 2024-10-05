@@ -23,9 +23,11 @@ This are the features that the calculator currently have:
 - Remove last inserted (DEL)
 - Clear all inserted (C)¡
 
+
 ## Installation And Usage
 
-As this application is made in Angular, first of all, you'll need Angular
+As this application is made in Angular, first of all, you'll need Angular.
+
 After you have installed Angular, clone this repository:
 ```bash
 git clone https://github.com/DecoPoxa/TutorialAngular.git
