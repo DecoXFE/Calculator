@@ -8,7 +8,8 @@ A simple calculator made with Angular
 <img src="https://i.ibb.co/x8B9ZNB/Calculator.png" alt="Calculator" border="0" width=180>
 <br>
 <br>
-<img src="https://img.shields.io/badge/Status-Basic%20Functionality-green"/>
+<img src="https://img.shields.io/badge/Status-Basic%20Functionality-Green?style=plastic&logo=angular&logoColor=pink
+"/>
 </div>
 
 ## Current Features
