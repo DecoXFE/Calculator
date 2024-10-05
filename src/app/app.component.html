@@ -1,27 +1,29 @@
 <body>
   <div class="calculator">
-    <input id="display" disabled="disabled">
+    <input id = "display" disabled placeholder="0">
     <div class="keys">
-      <button id="reset" class="special">C</button>
-      <button id="delete" class="special">DEL</button>
-      <button id="module" class="special">%</button>
-      <button id="div" class="operator">/</button>
-      <button id="7">7</button>
-      <button id="8">8</button>
-      <button id="9">9</button>
-      <button id="x" class="operator">*</button>
-      <button id="4">4</button>
-      <button id="5">5</button>
-      <button id="6">6</button>
-      <button id="minus" class="operator">-</button>
-      <button id="1">1</button>
-      <button id="2">2</button>
-      <button id="3">3</button>
-      <button id="plus" class="operator">+</button>
-      <button id="0">0</button>
-      <button id="dot">.</button>
-      <button id="equals" class="operator">=</button>
-
+      <button class="special" (click)="onSelectClear()">C</button>
+      <button class="special" (click)="onSelectDelete()">DEL</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">%</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">/</button>
+      <button (click)="onSelectNumber($event.target)">7</button>
+      <button (click)="onSelectNumber($event.target)">8</button>
+      <button (click)="onSelectNumber($event.target)">9</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">*</button>
+      <button (click)="onSelectNumber($event.target)">4</button>
+      <button (click)="onSelectNumber($event.target)">5</button>
+      <button (click)="onSelectNumber($event.target)">6</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">-</button>
+      <button (click)="onSelectNumber($event.target)">1</button>
+      <button (click)="onSelectNumber($event.target)">2</button>
+      <button (click)="onSelectNumber($event.target)">3</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">+</button>
+      <button (click)="onSelectNumber($event.target)">0</button>
+      <button (click)="onSelectNumber($event.target)">.</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">(</button>
+      <button class="operator" (click)="onSelectNumber($event.target)">)</button>
+      <button class="equals" (click)="onSelectEquals()">=</button>
     </div>
   </div>
 </body>
+
