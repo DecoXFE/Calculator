@@ -36,7 +36,7 @@ Build the files of the project in order to use it. Use this command inside the f
 ```bash
 ng build
 ```
-Finally, create an Angular server and open https://localhost:4200 in your web browser
+Finally, create an Angular server and open http://localhost:4200 in your web browser
 ```Bash
 ng serve
 ```
