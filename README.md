@@ -30,11 +30,12 @@ As this application is made in Angular, first of all, you'll need Angular.
 
 After you have installed Angular, clone this repository:
 ```bash
-git clone https://github.com/DecoPoxa/TutorialAngular.git
+git clone https://github.com/DecoXFE/TutorialAngular.git
+cd TutorialAngular
 ```
-Build the files of the project in order to use it. Use this command inside the folder of the cloned repository.
+Install all the dependencies needed
 ```bash
-ng build
+npm install
 ```
 Finally, create an Angular server and open http://localhost:4200 in your web browser
 ```Bash
