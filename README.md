@@ -21,7 +21,7 @@ This are the features that the calculator currently have:
 - Operations with parenthesis
 - Float numbers (.)
 - Remove last inserted (DEL)
-- Clear all inserted (C)¡
+- Clear all inserted (C)
 
 
 ## Installation And Usage
